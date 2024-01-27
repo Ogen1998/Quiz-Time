@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Website icon -->
+  <link rel="icon" type="image/png" href="/bergamotterna_logo.svg">
+   
+  <!-- Website title -->
+  <title>Quiz time</title>
+
+  <!-- Meta tag(s) -->
+  <meta name="language" content="EN">
+  <meta name="author" content="Augustine Al-Zebary, Diem Bang, Helena Skagerlid, Nikolaos Sarris, Rebecka Göthlin">
+  <meta name="keywords" content="quiz, question, answers, knowledge, bergamotterna">
+  <meta name="description" content="Test your knowledge with our interactive quiz! Challenge yourself with fun questions and improve your learning.">
+  <meta name="robots" content="index, follow">
+  <!-- Og meta tag(s) -->
+  <meta property="og:title" content="Quiz-time">
+  <meta property="og:type" content="quiz">
+  <meta property="og:description" content="Test your knowledge with our interactive quiz! Challenge yourself with fun questions and improve your learning.">
+
+  <!-- Font(s) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Style.css -->
+  <link rel="stylesheet" href="src/scss/style.css" type="text/css">
+</head>
+
+<body>
+  <main>
+    <section id="homePage" class="home-page" aria-label="home page">
+      <!-- Empty boxes -->
+      <div class="boxes-container">
+        <div class="upper-container">
+          <div class="box" aria-label="empty box for design purposes"></div>
+          <div class="box" aria-label="empty box for design purposes"></div>
+          <div class="box" aria-label="empty box for design purposes"></div>
+          <div class="box" aria-label="empty box for design purposes"></div>
+          <div class="box" aria-label="empty box for design purposes"></div>
+        </div>
+        <div class="lower-container">
+          <div class="box" aria-label="empty box for design purposes"></div>
+          <div class="box" aria-label="empty box for design purposes"></div>
+          <div class="box" aria-label="empty box for design purposes"></div>
+          <div class="box" aria-label="empty box for design purposes"></div>
+        </div>
+      </div>
+
+      <!-- Info box -->
+      <article class="main-info-container">
+        <h2 class="head-title" tabindex="0">An engaging quiz is ready for you</h2>
+        <p class="under-text" tabindex="0">Test your knowledge, challenge yourself, and discover something new!</p>
+        <button class="start-quiz-button" id="startQuizBtn" tabindex="0">
+          Start quiz
+          <svg 
+            class="arrow-icon"
+            width="64"
+            height="64"
+            viewBox="0 0 67 64">
+            <path class="start-quiz-arrow-1" d="M45.1552 34.6667L29.5219 49.6L33.5 53.3334L55.8334 32L33.5 10.6667L29.5219 14.4L45.1552 29.3334H11.1667V34.6667H45.1552Z"/>
+            <path class="start-quiz-arrow-2" d="M-9.77244 34L-25.0558 48.9333L-21.1667 52.6667L0.666626 31.3333L-21.1667 10L-25.0558 13.7333L-9.77244 28.6667H-43V34H-9.77244Z" />
+          </svg>
+        </button>   
+      </article>
+      
+      <!-- Background -->
+      <div class="background-shapes">
+        <!-- Custom shapes -->
+        <svg class="shapes custom-shape-1" width="618" height="608" viewBox="0 0 618 608" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="gradient1" x1="542.001" y1="256.982" x2="6.87395" y2="374.129"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#5B419D" />
+              <stop offset="100%" stop-color="#815AC0" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M1.1197 388.359C31.0858 210.5 304.845 -24.64 468.634 2.95578C632.424 30.5515 631.047 269.914 603.472 433.582C575.897 597.249 499.871 619.612 404.969 603.622C241.18 576.027 -13.1678 473.159 1.1197 388.359Z"
+            fill="url(#gradient1)" />
+        </svg>
+        <svg class="shapes custom-shape-2" width="618" height="608" viewBox="0 0 618 608" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="gradient2" x1="542.001" y1="256.982" x2="6.87395" y2="374.129"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#5B419D" />
+              <stop offset="100%" stop-color="#815AC0" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M1.1197 388.359C31.0858 210.5 304.845 -24.64 468.634 2.95578C632.424 30.5515 631.047 269.914 603.472 433.582C575.897 597.249 499.871 619.612 404.969 603.622C241.18 576.027 -13.1678 473.159 1.1197 388.359Z"
+            fill="url(#gradient2)" />
+        </svg>
+        <!-- Circles -->
+        <svg class="shapes circle-shape-1" width="105" height="105" viewBox="0 0 105 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="gradient3" x1="52.5" y1="0" x2="52.5" y2="105" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#5B419D" />
+              <stop offset="100%" stop-color="#815AC0" />
+            </linearGradient>
+          </defs>
+          <circle cx="52.5" cy="52.5" r="49" stroke="url(#gradient3)" stroke-width="7" />
+        </svg>  
+        <svg class="shapes circle-shape-2" width="105" height="105" viewBox="0 0 105 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="gradient4" x1="52.5" y1="0" x2="52.5" y2="105" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#5B419D" />
+              <stop offset="100%" stop-color="#815AC0" />
+            </linearGradient>
+          </defs>
+          <circle cx="52.5" cy="52.5" r="49" stroke="url(#gradient4)" stroke-width="7" />
+        </svg>
+        <!-- Lines -->
+        <svg class="shapes line-shape-1" width="217" height="200" viewBox="0 0 217 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="gradient5" x1="215" y1="1.99996" x2="8" y2="149"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#5B419D" />
+              <stop offset="100%" stop-color="#815AC0" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M9.84095 197.604C1.49241 177.788 -6.14841 130.679 30.0767 100.769C75.358 63.3807 171.775 73.9689 214.96 1.99996"
+            stroke="url(#gradient5)" stroke-width="4" stroke-linecap="round" />
+        </svg>
+        <svg class="shapes line-shape-2" width="217" height="200" viewBox="0 0 217 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="gradient6" x1="215" y1="1.99996" x2="8" y2="149"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#5B419D" />
+              <stop offset="100%" stop-color="#815AC0" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M9.84095 197.604C1.49241 177.788 -6.14841 130.679 30.0767 100.769C75.358 63.3807 171.775 73.9689 214.96 1.99996"
+            stroke="url(#gradient6)" stroke-width="4" stroke-linecap="round" />
+        </svg>
+        <svg class="shapes line-shape-3" width="217" height="200" viewBox="0 0 217 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="gradient7" x1="215" y1="1.99996" x2="8" y2="149"
+              gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#5B419D" />
+              <stop offset="100%" stop-color="#815AC0" />
+            </linearGradient>
+          </defs>
+          <path
+            d="M9.84095 197.604C1.49241 177.788 -6.14841 130.679 30.0767 100.769C75.358 63.3807 171.775 73.9689 214.96 1.99996"
+            stroke="url(#gradient7)" stroke-width="4" stroke-linecap="round" />
+        </svg>
+      </div>
+    </section>
+
+    <section id="quizPage" class="quiz-page hidden" aria-label="quiz page">
+      <!-- Question Box --> 
+      <div class="questions-container"> 
+        <!-- Current question out of total counter -->
+        <span class="counter-display"></span>
+        <!-- Current question -->
+        <div class="question-container">
+          <div id="questionsContainer" tabindex="0"></div>
+        </div>
+      </div>
+
+      <!-- Question mark -->
+      <img class="question-mark" src="/questionmark.svg" alt="question mark with a lot of other question marks in different sizes" width="100" height="100" loading="lazy">
+
+      <!-- Boxes -->
+      <div id="answersContainer" class="answers-container">
+        <div class="empty-box"></div>
+        <button id="answerBtn1" class="empty-box active-question-box">
+          <span class="answer-label">A</span>
+          <span class="answer-text"></span>
+        </button>
+        <button id="answerBtn3" class="empty-box active-question-box">
+          <span class="answer-label">B</span>
+          <span class="answer-text"></span>
+        </button>
+        <div class="empty-box"></div>
+        <div class="empty-box"></div>
+        <div class="empty-box"></div>
+        <button id="answerBtn2" class="empty-box active-question-box">
+          <span class="answer-label">C</span>
+          <span class="answer-text"></span>
+        </button>
+        <div class="empty-box"></div>
+        <div class="empty-box"></div>
+      </div>
+
+      <!-- Score and timer -->
+      <div id="infoContainer" class="info-container">
+        <!-- Score -->
+        <div id="scoreDisplay" class="score-display"><span class="score-icon"></span>0 points</div>
+        <span class="line"> | </span>
+        <!-- Timer -->
+        <div id="timer" class="timer"><span class="timer-icon"></span>00:00</div>
+      </div>
+
+      <!-- Next question button -->
+      <div class="next-question-button-container">
+        <button id="nextBtn" class="next-question-button hidden" disabled>
+          Next question
+          <svg 
+            class="arrow-icon"
+            width="64"
+            height="64"
+            viewBox="0 0 67 64">
+            <path d="M45.1552 34.6667L29.5219 49.6L33.5 53.3334L55.8334 32L33.5 10.6667L29.5219 14.4L45.1552 29.3334H11.1667V34.6667H45.1552Z"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile background shapes -->
+      <div class="mobile-background-shapes"></div>
+    </section>
+
+    <section id="resultsPopup" class="results-popup hidden">
+      <div id="resultsContainer" class="results-container">
+        <!-- Icon -->
+        <img id="resultIcon" class="result-icon" src="/sad_face.svg" alt="black colored sad face icon" width="100" height="100" loading="lazy">
+        <!-- Results info -->
+        <div id="totalScore" class="result-text"></div>
+        <div id="totalPoints" class="result-text"></div>
+        <div id="totalSectionTime" class="result-text"></div>
+        <p class="result-under-text">Would you like to play a new quiz?</p>
+        <!-- Restart quiz button -->
+        <button id="restartQuizBtn" class="restart-quiz-btn">
+          Start a new quiz!
+          <svg 
+            class="reset-icon"
+            height="24" 
+            width="24"
+            viewBox="0 -960 960 960">
+            <path d="M440-122q-121-15-200.5-105.5T160-440q0-66 26-126.5T260-672l57 57q-38 34-57.5 79T240-440q0 88 56 155.5T440-202v80Zm80 0v-80q87-16 143.5-83T720-440q0-100-70-170t-170-70h-3l44 44-56 56-140-140 140-140 56 56-44 44h3q134 0 227 93t93 227q0 121-79.5 211.5T520-122Z"/>
+          </svg>
+        </button>
+      </div>
+    </section>
+  </main> 
+
+  <footer>
+    <p>&#169; All rights reserved</p>
+  </footer>
+
+  <!-- Main script file -->
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
